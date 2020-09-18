@@ -1,0 +1,24 @@
+  <Menu.Item key="main/dashboard/crypto">
+                    <Link to="/main/dashboard/crypto">
+                      <i className="icon icon-crypto"/>
+                      <IntlMessages id="sidebar.dashboard.crypto"/>
+                    </Link>
+                  </Menu.Item>
+              <SubMenu key="editor" className={this.getNavStyleSubMenuClass(navStyle)}
+                title={<span>
+                  <i className="icon icon-editor" />
+                  <IntlMessages id="sidebar.editors" />
+                </span>}>
+                <Menu.Item key="extra-components/editor/ck">
+                  <Link to="/extra-components/editor/ck">
+                    <IntlMessages
+                      id="sidebar.editors.CKEditor" /></Link>
+                </Menu.Item>
+                <Menu.Item key="extra-components/editor/wysiswyg">
+                  <Link to="/extra-components/editor/wysiswyg">
+                    <IntlMessages
+                      id="sidebar.editors.WYSISWYGEditor" /></Link>
+                </Menu.Item>
+              </SubMenu>
+
+             
